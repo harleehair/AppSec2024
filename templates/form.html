@@ -1,0 +1,20 @@
+{% extends 'base.html' %}
+{% block title %}Quack!{% endblock %}
+{% block content %}
+
+  <div class="container">
+
+    <h1>Thank You!</h1>
+
+  <br/>
+  <h4>Messages to the Ducks</h4>
+      <br/>
+      <ul>
+      {% for contact_forms in contact_forms %}
+          <li>{{ contact_forms }}</li>
+
+        {% endfor %}
+      </ul>
+      </div>
+
+{% endblock %}

@@ -1,0 +1,56 @@
+{% extends 'base.html' %}
+{% block title %}Contact Duck Duck Gööse{% endblock %}
+{% block content %}
+
+    # Annoying visual problem, input boxes are not sized correctly or go across the screen at page launch,
+    # but once you fall into the error statement, the input boxes are fixed. WHY?
+
+{%  if error_statement %}
+
+  <div class="container">
+
+    <div class="alert alert-warning alert-dismissible fade show" role="alert">
+      {{ error_statement }}
+      <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+      </button>
+    </div>
+
+    {% endif %}
+
+    <h1>Contact the Duck Duck Gööse!</h1>
+    <br/><br/>
+
+    <form action="/form" method="POST">
+
+  <div class="form-group">
+
+    <label for="exampleFormControlInput1">Email address</label>
+    <input type="email" class="form-control" id="exampleFormControlInput1"
+           placeholder="name@example.com" name="email" value="{{ email }}">
+  </div>
+
+  <div class="form-group">
+
+      <label for="exampleFormControlInput1">Name</label>
+      <input type="text" class="form-control" id="exampleFormControlInput1"
+             placeholder="Name" name="name" value="{{ name }}">
+  </div>
+
+  <div class="form-group">
+
+    <label for="exampleFormControlTextarea1">Send us your burning questions and/or comments</label>
+    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" name="message" value="{{ message }}">
+
+    </textarea>
+  </div>
+
+      <br/>
+      <button type="submit" class="btn btn-secondary">Submit</button>
+
+    </form>
+
+    </div>
+
+
+{% endblock %}
