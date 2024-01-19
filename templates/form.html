@@ -7,14 +7,17 @@
     <h1>Thank You!</h1>
 
   <br/>
-  <h4>Messages to the Ducks</h4>
+  <h3>Messages to the Ducks</h3>
       <br/>
+
+  <div class="messages">
       <ul>
       {% for contact_forms in contact_forms %}
           <li>{{ contact_forms }}</li>
 
         {% endfor %}
       </ul>
+  </div>
       </div>
 
 {% endblock %}
