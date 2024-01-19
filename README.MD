@@ -7,9 +7,9 @@ All html pages are stored in the templates folder, while the css and images are 
 I was able to run and preview each page successfully on my machine and by using the flask preview option. 
 I was also able to run this through gitpod once I installed a python extension and installed flask. 
 
-I followed a very helpful and basic tutorial to understand how flask and html files can work together. [Here is the link to the playlist](https://www.youtube.com/watch?v=2e4STDACVA8&list=PLCC34OHNcOtqJBOLjXTd5xC0e-VD3siPn)
+I followed a very helpful and basic tutorial to understand how flask and html files can work together. [Here is the link to the playlist.](https://www.youtube.com/watch?v=2e4STDACVA8&list=PLCC34OHNcOtqJBOLjXTd5xC0e-VD3siPn)
 
-
+<h2>Description</h2>
 
   A base hmtl file is made, with basic information, css file linked, and the navigation bar set up. I used code from bootcamp. 
   The index file is the home page, holding four images. 
