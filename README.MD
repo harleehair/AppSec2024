@@ -14,7 +14,7 @@ I followed a very helpful and basic tutorial to understand how flask application
   - A base hmtl file is made, with basic information, css file linked, and the navigation bar set up. I used code from bootcamp to create the navi bar. 
   - The index file is the home page, previewing the four images. 
   - The About me file shows a title and three paragraphs. I used Lorem Ipsum to generate the text. 
-  - The Contact file acts as a way to contact the website. It reponds to all three text boxes being filled in. If that is true, it will return a new html page showing what the user submitted. 
+  - The Contact file acts as a way to contact the website. It reponds to all three text boxes being filled in. If that is true, it will return a new html page called form, showing what the user submitted. 
       - Example= name email : message.
   - The Contact file also responds to when the user does not fill out all boxes. If the user hits the submit button with one or more boxes empty, it will reload the page and present a closable error at the top of the page. This code was also from bootcamp. 
 
