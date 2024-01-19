@@ -9,6 +9,10 @@ I was also able to run this through gitpod once I installed a python extension a
 
 I followed a very helpful and basic tutorial to understand how flask and html files can work together. 
 
+[link](https://www.example.com/my%20great%20page)
+
+<a href="https://www.example.com/my great page">link</a>
+
   A base hmtl file is made, with basic information, css file linked, and the navigation bar set up. I used code from bootcamp. 
   The index file is the home page, holding four images. 
   The About me file shows a title and three paragraphs. I used Lorem Ipsum to generate the text. 
