@@ -20,7 +20,9 @@ I followed a very helpful and basic tutorial to understand how flask application
 
 An interesting problem I have is that these input boxes change size based on the previously mentioned interacton. The input boxes have no set deminsion and load from one end of the browser to the other. If the user fails to fill out a box, having the page reload, the input boxes are no longer end to end. They look more uniform and clean. I liked that and could not figure out how to make that a standard feature for the contact html page. 
 
-Please contact me if something fails to load. 
+Please contact me if something fails to load. This all looked very uniform and clean on my laptop and I hope that translates well to other personal computers. 
+
+I had taken one Web Design class 10 years ago, so I came into this with little knowledge. I had fun relearn basic html and css syntax.
 
 Thank you!
 
